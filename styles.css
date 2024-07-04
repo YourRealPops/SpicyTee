@@ -385,7 +385,7 @@ section {
   }
 }
 @media (max-width: 680px) {
-  .banner .content h2 {
+  /* .banner .content h2 {
     font-size: 3em;
   }
   section {
@@ -402,5 +402,106 @@ section {
   }
   .row .col50 .imgBx {
     display: none;
-  }
+  } */
+
+ 
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+  
+    p {
+      font-weight: 300;
+      color: #111;
+      font-size: 0.9em; /* Adjusted for better readability on smaller screens */
+    }
+  
+    body {
+      min-height: 1000px;
+    }
+  
+    .banner {
+      min-height: 50vh; /* Adjusted for smaller screens */
+      background-size: cover;
+    }
+  
+    .banner .content {
+      max-width: 100%; /* Use full width for content */
+      padding: 20px; /* Add some padding for better spacing */
+    }
+  
+    .banner .content h2 {
+      font-size: 2.5em; /* Smaller font size for titles */
+    }
+  
+    .banner .content p {
+      font-size: 0.9em; /* Smaller font size for paragraphs */
+      line-height: 1.4em; /* Adjusted line-height */
+    }
+  
+    .btn {
+      font-size: 0.9em;
+      padding: 10px 20px; /* Smaller padding */
+      margin-top: 10px; /* Adjusted margin */
+    }
+  
+    header {
+      padding: 20px 50px; /* Smaller padding */
+    }
+  
+    header.sticky {
+      padding: 10px 20px; /* Smaller padding */
+    }
+  
+    .row {
+      flex-direction: column; /* Stack columns vertically */
+      align-items: center; /* Center-align items */
+    }
+  
+    .row .col50 {
+      width: 100%; /* Full width for columns */
+      text-align: center; /* Center-align text */
+    }
+  
+    .row .col50 .imgBx {
+      display: none; /* Hide images */
+    }
+  
+    .menu .content,
+    .expert .content,
+    .testimonials .content {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center-align items */
+    }
+  
+    .menu .content .box,
+    .expert .content .box,
+    .testimonials .content .box {
+      width: 100%; /* Full width for boxes */
+      margin: 10px 0; /* Adjusted margin */
+    }
+  
+    .contactForm {
+      padding: 50px 20px; /* Adjusted padding */
+      max-width: 100%; /* Full width for contact form */
+    }
+  
+    .contactForm h3 {
+      font-size: 1.5em; /* Smaller font size */
+    }
+  
+    .contactForm .inputBox input,
+    .contactForm .inputBox textarea {
+      padding: 10px; /* Adjusted padding */
+      font-size: 0.9em; /* Smaller font size */
+    }
+  
+    .copyrightText {
+      padding: 10px 20px; /* Adjusted padding */
+    }
+  
+  
+
 }
